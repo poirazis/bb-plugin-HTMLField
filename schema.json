@@ -1,0 +1,17 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-plugin-HTMLField",
+    "friendlyName": "bb-plugin-HTMLField",
+    "description": "An HTMLField Budibase plugin based on Quill",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "text",
+        "label": "Text"
+      }
+    ]
+  }
+}
