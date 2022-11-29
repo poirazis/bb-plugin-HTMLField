@@ -3,14 +3,36 @@
   "metadata": {},
   "schema": {
     "name": "bb-plugin-HTMLField",
-    "friendlyName": "bb-plugin-HTMLField",
-    "description": "An HTMLField Budibase plugin based on Quill",
+    "friendlyName": "HTML Field",
+    "description": "An HTML Field Budibase plugin based on Quill",
     "icon": "Text",
     "settings": [
       {
         "type": "text",
-        "key": "text",
-        "label": "Text"
+        "key": "label",
+        "label": "Label"
+      },
+      {
+        "type": "text",
+        "key": "placeholder",
+        "label": "Placeholder"
+      },
+      {
+        "type": "field/longform",
+        "key": "field",
+        "label": "Field",
+        "required": true
+      },
+      {
+        "type": "select",
+        "key": "toolbarmode",
+        "label": "Toolbar Mode",
+        "options": [
+          { "label": "Minimal", "value": "mini"},
+          { "label": "Normal", "value": "normal"},
+          { "label": "Full", "value": "full"}
+        ],
+        "defaultValue": "normal"
       }
     ]
   }
